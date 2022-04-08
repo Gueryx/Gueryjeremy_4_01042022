@@ -875,9 +875,13 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: "constant(safe-area-inset-left)";
-        padding-right: "constant(safe-area-inset-right)";
-        /*CORRECTION N°12 AJOUT DES " " */
+        /* CORRECTION N°12 AVANT
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
+        /* CORRECTION N°12 APRES CI-DESSOUS*/
+        --safe-area-left: env(safe-area-inset-left);
+        --safe-area-right: env(safe-area-inset-right);
+        /*zone de sécurité dans ios et android gérée*/
     }
     .bloc-group,
     .bloc-group .bloc {
