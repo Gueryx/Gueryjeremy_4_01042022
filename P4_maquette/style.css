@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /*CORRECTION N°17 POLICE TAILLE 11PX MISE A 12PX*/
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
