@@ -776,7 +776,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*CORRECTION N°19 RECTIFICATION COULEUR DU H1 EN BLANC AU LIEU DE L4AVOIR A LA MEME COULEUR QUE LE FOND*/
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
