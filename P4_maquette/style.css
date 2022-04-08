@@ -875,11 +875,9 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-top: env(safe-area-inset-top);
-        padding-right: env(safe-area-inset-right);
-        padding-bottom: env(safe-area-inset-bottom);
-        padding-left: env(safe-area-inset-left);
-        /*CORRECTION N°12 des padding top & bottom*/
+        padding-left: "constant(safe-area-inset-left)";
+        padding-right: "constant(safe-area-inset-right)";
+        /*CORRECTION N°12 AJOUT DES " " */
     }
     .bloc-group,
     .bloc-group .bloc {
