@@ -4291,7 +4291,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid \9;
+    /*border-top: 4px solid \9;*/
     /*CORRECTION N°5 problème avec \9 via W3C. Le \9 n'est pas prit en charge par tout les navigateur*/
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
