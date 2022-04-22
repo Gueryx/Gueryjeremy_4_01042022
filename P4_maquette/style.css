@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: #FFFFFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -100,11 +100,12 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    /*CORRECTION POST SOUTENANCE, CONTRASTE PAS ASSEZ ÉLEVÉ*/
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .icon-round,
@@ -112,11 +113,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn,
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,17 +151,17 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .panel {
@@ -369,10 +370,6 @@ a:hover {
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }
-    .nav>li .dropdown-menu a,
-    .nav>li .dropdown-menu a:hover {
-        color: #484848;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -610,7 +607,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -651,7 +648,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,8 +674,8 @@ a {
 }
 
 p {
-    /*CORRECTION N°17 POLICE TAILLE 11PX MISE A 12PX*/
-    font-size: 12px;
+    /*CORRECTION N°17 POLICE TAILLE 11PX MISE A 14PX*/
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -714,7 +711,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -724,11 +721,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -782,7 +779,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -937,17 +934,6 @@ h4 {
         -webkit-transform: none;
         -ms-transform: none;
     }
-    .nav>li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
-    .nav>li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -960,7 +946,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgb(255, 255, 255);
     }
     .hero {
         padding: 50px 0;
