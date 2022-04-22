@@ -14,7 +14,8 @@ input li {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* CORRECTION / SUPPRESSION OUTLINE: NONE 
+    outline: none!important; */
 }
 
 a:hover {
