@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+input li {
+    border: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
